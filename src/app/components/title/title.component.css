@@ -1,7 +1,65 @@
-body{
-    background-color: orange;
+/* .cabecera .imagen-cabecera{
+    max-width: 700px;
 }
 
-h1{
-    background-color: purple;
+.cabecera{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fcfcfc; 
+    border-radius: 80px;
+    padding: 5px 0;
+    height: 80px;
+    
 }
+
+.imagen-cabecera{
+    width: 40%;
+    filter:opacity(0.6);
+    transition: transform 2s;
+    margin:0;
+    padding: 0;
+    clip-path:  ellipse(50% 50% at center);
+}
+
+.imagen-cabecera:hover{
+    /* transform:scale(-1); */
+   /* filter:saturate(200%);
+    clip-path:  circle(80% at center);
+}
+
+@media (max-width: 800px){
+    :root{
+    --fuente: 20px;
+    }
+    .logo{
+        padding-left: 10%;
+    }
+    .mapa, .imagen-cabecera{
+        display:none;
+    }
+
+    .hamburguesa-item{
+        max-width: 70%;
+        
+    }
+
+    .hamburguesa:active{
+        transform: rotate(10deg);
+        transition: transform 0.1s;
+    }
+
+    #hamb:checked + .submenu{
+        display: block;
+    }
+
+    .hamburguesa{
+        display: block;
+        padding-left: 20%;
+        min-width: 15%;
+        padding-right: 10%;
+        
+    }
+    
+} */
