@@ -1,0 +1,15 @@
+.clima{
+    display: flex;
+    background-color: palegoldenrod;
+    justify-content: space-around;
+    font-size: 5px;
+}
+
+.clima-info{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clima-descripcion{
+    font-size: 20px;
+    color:peru;
+}

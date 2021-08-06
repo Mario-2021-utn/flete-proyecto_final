@@ -68,6 +68,19 @@
     font-family: sans-serif;
 }
 
+.btn{
+    font-family: 'Russo One', sans-serif;
+    margin: auto;
+    padding: 1.5em;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: darkslategray;
+    
+}
+
 @media (max-width: 800px) {
 
 

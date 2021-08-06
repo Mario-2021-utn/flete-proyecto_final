@@ -1,0 +1,42 @@
+.main{
+    color: #eb770c;
+    padding: 2em;
+    padding-left: 10em;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.main-titulo{
+    font-size: 50px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    background-color: #83450b;
+    color:#050505;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.contenedor{
+    font-size: 50px;
+    text-align: center;
+    margin:10vw;
+    color:#050505;
+    background-color: #f0d5bf;
+    border: 20px solid black;
+    /* background-image: url("imagenes/ruta20SJ.jpg"); */
+    /* background-size: cover; */
+}
+
+
+@media (max-width: 767px){
+
+    .contenedor{
+        font-size: 25px;
+        margin-right: 13vw;
+        
+    }
+    .main-titulo{
+        font-size: 30px;
+    }
+}
