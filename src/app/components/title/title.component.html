@@ -1,4 +1,4 @@
-<header>
-<h1>{{ title }}</h1>
-<p>{{ subtitle }}</p>
+<header class="clima">
+<h1 *ngIf="datita" class="clima-info"> {{ datita.name }}, Temperatura: {{ datita.main.temp }} y Sensacion Térmica: {{ datita.main.feels_like }}</h1>
+<p *ngIf="datita" class="clima-descripcion">{{ datita.weather[0].description | uppercase}}</p>
 </header>
