@@ -1,0 +1,34 @@
+main{
+    color: #eb770c;
+    padding: 2em;
+    padding-left: 10em;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.main-titulo{
+    font-size: 50px;
+    margin-right: 10vw;
+}
+
+.contenedor{
+    font-size: 50px;
+    text-align: center;
+    margin-right:10vw;
+    color:#050505;
+    /* background-image: url("imagenes/ruta20SJ.jpg"); */
+    background-size: cover;
+}
+
+
+@media (max-width: 767px){
+
+    .contenedor{
+        font-size: 25px;
+        margin-right: 13vw;
+        
+    }
+    .main-titulo{
+        font-size: 30px;
+    }
+}

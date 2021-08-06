@@ -1,0 +1,226 @@
+:root{
+    --copy: "©"; 
+    --espacio: 10vh;
+    --fuente: 30px;
+}
+
+.sr-only{
+    background-color: #042222;
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+.sr-only:focus{
+    background-color: #ff8c00;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    clip: auto;
+}
+
+body{
+    background-color: darkblue;
+    background-image: url("/assets/images/cajas.jpg");
+    width: calc(100%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.hamburguesa{
+    max-width: 12%;
+    display:none;
+}
+
+.hamb-input{
+    display:none;
+}
+.submenu{
+    list-style: none;
+    display: none;
+    width: 100%;
+    background-color: rgb(206, 141, 3);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.submenu-item{
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* .logo{
+    /* clip-path: ellipse(60% 70% at center); */
+/* } */ */
+
+.logo:after{
+    content:var(--copy);
+    color :#be0f0f;
+    font-size: 20px;
+    position: relative;
+    top:-20px;
+}
+/* .titulo:before{
+ content:var(--copy);
+ color :teal;
+ font-size: 30px;
+ position: relative;
+ top:-20px;
+}
+  ***********************Esto lo hice porque no tenía logo **************
+.titulo{
+    font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
+    font-size: var(--fuente);
+} */
+
+.mapa{
+    max-width: 8em;
+    clip-path:  ellipse(50% 20% at center);
+}
+
+.mapa:hover{    
+        filter: saturate(150%);
+        clip-path: circle(40% at center);    
+}
+
+.cabecera .imagen-cabecera{
+    max-width: 700px;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fcfcfc; 
+    border-radius: 80px;
+    padding: 5px 0;
+    height: 80px;
+    
+}
+
+.imagen-cabecera{
+    width: 40%;
+    filter:opacity(0.6);
+    transition: transform 2s;
+    margin:0;
+    padding: 0;
+    clip-path:  ellipse(50% 50% at center);
+}
+
+.imagen-cabecera:hover{
+    /* transform:scale(-1); */
+    filter:saturate(200%);
+    clip-path:  circle(80% at center);
+}
+
+.imagen-contenedor{
+    text-align: center;
+}
+
+.imagen-central{
+    max-width: 100%;
+    padding: 0;
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.link{
+    background-color: #070400;
+    /* background-image: url("imagenes/fondotecnologico.jpg"); */
+    background-size:cover;
+    padding: 2em;
+    border-radius: 2em;
+    margin-top:100px;
+    text-align: right;
+    display:flex;
+    justify-content: space-between;
+    margin-left: var(--espacio);
+    margin-right: var(--espacio);
+    text-decoration: none;
+}
+
+.link-hijo{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: var(--fuente); 
+    font-weight: bold;
+    transition: transform 2s;
+}
+
+.link-hijo:hover{
+    transform: skew(30deg) scale(1.5);
+}
+
+.btn{
+    font-family: 'Russo One', sans-serif;
+    margin: auto;
+    padding: 1.5em;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: darkslategray;
+    
+}
+
+@media (max-width: 800px){
+    :root{
+    --fuente: 20px;
+    }
+    .logo{
+        padding-left: 10%;
+    }
+    .mapa, .imagen-cabecera{
+        display:none;
+    }
+
+    .hamburguesa-item{
+        max-width: 70%;
+        display: block;
+    }
+
+    .hamburguesa:active{
+        transform: rotate(10deg);
+        transition: transform 0.1s;
+    }
+
+    .hamburguesa{
+        display: block;
+        padding-left: 20%;
+        min-width: 15%;
+        padding-right: 10%;
+        
+    }
+
+    #hamb:checked + .submenu{
+        display: block;
+    }
+
+    
+    .link{
+        display: block;
+        padding: 0;
+    }
+
+    .link-hijo:first-child{
+        border-bottom: 2px solid aliceblue;
+    }
+
+    .link-hijo{
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+}

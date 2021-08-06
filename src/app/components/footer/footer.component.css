@@ -1,0 +1,25 @@
+.footer{
+    margin-top: 60px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+    background-color: grey;
+    border-top: 4px solid black;
+    background-image: linear-gradient(#eb770c 5%,#c4bfb7);
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-creditos{
+    border-left:1px dashed black;
+    padding-left: 3em;
+    padding-top: 4em;
+    margin-bottom: 0;
+}
+
+@media (max-width: 800px){ 
+    .footer{
+        font-size: 6px;
+    }  
+}

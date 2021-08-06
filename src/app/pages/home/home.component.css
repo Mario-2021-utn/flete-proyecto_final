@@ -1,0 +1,94 @@
+.imagen-contenedor{
+    text-align: center;
+}
+.imagen-central{
+    max-width: 100%;
+    padding: 0;
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.link{
+    background-color: #070400;
+    /* background-image: url("imagenes/fondotecnologico.jpg"); */
+    background-size:cover;
+    padding: 2em;
+    border-radius: 2em;
+    margin-top:100px;
+    text-align: right;
+    display:flex;
+    justify-content: space-between;
+    margin-left: var(--espacio);
+    margin-right: var(--espacio);
+    text-decoration: none;
+}
+
+.link-hijo{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: var(--fuente); 
+    font-weight: bold;
+    transition: transform 2s;
+}
+
+.link-hijo:hover{
+    transform: skew(30deg) scale(1.5);
+}
+
+.form{
+    margin-top: 50px;
+    border: 4px solid #704504;
+    font-size: 2em;
+    display: flex;
+    background-color: #eb770c;
+}
+
+.form img{
+    align-self: center;
+    margin-left: 10%;
+}
+
+.form-label{
+    display:flex;
+    background-color: #eb770c;
+    flex-direction: column;
+    max-width: 500px;
+    padding-left: 30px;
+} 
+
+
+.form-label_item input{
+    align-items: flex-end;
+    font-weight: 0.4em;
+    color:#0d2a8b; 
+}
+
+.form-label_item{
+    /* align-self: center; */
+    font-family: sans-serif;
+}
+
+@media (max-width: 800px) {
+
+
+
+    .link{
+        display: block;
+        padding: 0;
+    }
+
+    .link-hijo:first-child{
+        border-bottom: 2px solid aliceblue;
+    }
+
+    .link-hijo{
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .form img{
+        display:none;
+    }
+
+}
