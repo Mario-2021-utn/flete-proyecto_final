@@ -117,11 +117,10 @@
         min-width: 15%;
         padding-right: 10%;  
     }
-    /* 
+    
     .hamburguesa-item{
-         max-width: 100%;
-        
-    } */
+         max-width: 70px;
+    }
     
     .hamburguesa:active{
         transform: rotate(10deg);
