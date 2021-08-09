@@ -8,21 +8,30 @@
     </div>
 </main> <!--Cierre de main-->
 <div class="form">
-    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" class="form-label">
-        <p>Envíanos tu Consulta</p>
+    <p>Envíanos tu Consulta</p>
+    <form 
+        name="contact-form" 
+        class="form-label"
+        method="POST"
+        data-netlify="true"
+    > 
+        <input type="hidden" name="form-name" value="contact-form" />
         <label class="form-label_item">
             Nombre:
-            <input name="nombre" type="text" required>
-            </label>
+        </label>
+        <input type="text" name="nombre" required />
+        
         <label class="form-label_item">
             Mail:
-            <input name="mail" type="email" required>
         </label>
+        <input type="email" name="mail" required />
+        
         <label class="form-label_item">
             Consulta:
-            <textarea name="comentarios" rows="10" cols="50" placeholder="Escriba aquí Su Consulta" required></textarea>
         </label>
-            <input class="btn" type="submit" value="Enviar Consulta">
+        <textarea name="comentarios" rows="10" cols="50" placeholder="Escriba aquí Su Consulta" required>
+        </textarea>
+        <input class="btn" type="submit" value="Enviar Consulta">
     </form>
     <img src="assets/images/cajas.jpg" alt="cajas">
 </div>
