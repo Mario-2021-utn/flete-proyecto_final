@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     InformacionComponent,
     HomeComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
