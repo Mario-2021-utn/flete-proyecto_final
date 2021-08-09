@@ -2,10 +2,11 @@
     display: flex;
     background-color: palegoldenrod;
     justify-content: space-around;
-    font-size: 5px;
+    font-size: 7px;
 }
 
 .clima-info{
+  padding-top: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
