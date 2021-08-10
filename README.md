@@ -1,5 +1,20 @@
 # Fletes
 
+## Pautas de entrega (opcionales, mínimo 5)
+
+1 Animaciones con CSS
+2 Etiquetas semánticas de HTML (main, article, footer, nav, header, etc.)
+3 Llamada a una API externa (Open Weather Map)
+4 Muy responsive
+5 Usa manejo de paquetes (NPM)
+6 Cosas raras de CSS (clip-path)
+7 Sitio subido a Netlify
+8 Sitio en Angular
+        Esto vale x2
+--------------------------------------------------------------
+9 Intento fallido del formulario de netlify 
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
 ## Development server
