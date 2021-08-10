@@ -1,1 +1,15 @@
-<p>contacto works!</p>
+<h2 class="subtitulo"> Haga click en la Imagen para mostrar su información</h2>
+<div class="container">
+    <div class="container-div">
+    <img src="assets/images/whatsapp-logo.png" alt="whatsapp" class="container-img" (click)="toggleInformation()">
+        <p *ngIf="mostrar" class="info"> Nuestro whatsapp es -------->  1158977561</p>
+    </div>
+    <div class="container-div">
+    <img src="assets/images/icono-de-instagram.png" alt="instagram" class="container-img" (click)="toggleInformation()">
+        <p *ngIf="mostrar" class="info"> Nuestro Instragram es --------> @fletescabapalermo</p>
+    </div>
+    <div class="container-div">
+        <img src="assets/images/facebook-logo.jpg" alt="facebook" class="container-img" (click)="toggleInformation()">
+        <p *ngIf="mostrar" class="info"> Nuestro facebook es -------->  fletescabapalermo</p>
+    </div>
+</div>

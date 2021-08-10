@@ -11,5 +11,11 @@ export class ContactoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  mostrar=false;
+  toggleInformation(){
+    this.mostrar = !this.mostrar;
+  }
+  saludar(){
+    alert("oh hiciste click");
+  }
 }
