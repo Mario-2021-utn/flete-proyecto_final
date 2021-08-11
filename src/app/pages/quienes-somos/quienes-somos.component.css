@@ -28,9 +28,23 @@
     .contenedor{
         font-size: 25px;
         margin-right: 13vw;
-        
+        padding-right: 40px;
     }
     .main-titulo{
         font-size: 30px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .contenedor{
+        font-size: 20px;
+        padding-right: 40px;
+        
+    }
+    .main-titulo{
+        font-size: 25px;
+        padding-right: 50px;
     }
 }

@@ -38,7 +38,17 @@
         max-width: 30%;
     }
 
-    .subtitulo{
+    .info{
         font-size: 15px;
     }
+    .subtitulo{
+        font-size: 10px;
+    }
 }
+
+@media (max-width:500px){
+    .info{
+      font-size: 10px;
+      padding-right:5px;
+    }
+} 

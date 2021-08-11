@@ -105,3 +105,10 @@
     }
 
 }
+
+@media (max-width: 500px){
+    .form-label{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
